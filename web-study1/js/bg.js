@@ -2,8 +2,6 @@ const body = document.querySelector('body');
 
 const IMG_NUMBER = 3;
 
-
-
 function paintImage(imgNumber){
     const img = new Image();
     img.src = `img/${imgNumber}.jpg`; 

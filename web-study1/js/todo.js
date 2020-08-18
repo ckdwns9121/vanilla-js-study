@@ -2,7 +2,6 @@ const todo_form = document.querySelector('.js-todo-form'),
     todo_input = todo_form.querySelector('input'),
     todo_list = document.querySelector('.js-todo-list');
 
-
 const TODOS_LS ="todos";
 let todos = [];
 
@@ -47,7 +46,6 @@ function paintTodo(text){
     console.log(todos);
     saveTodos();
 }
-
 
 function loadTodos(){
     const load_todos = localStorage.getItem(TODOS_LS);

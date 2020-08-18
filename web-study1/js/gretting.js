@@ -16,13 +16,13 @@ function handleSubmit (e) {
     const userName = input.value;
     localStorage.setItem(USER_LS,userName);
     paintGreeting(userName);
-
 }
+
 function askForName(){
     form.classList.add(SHOWING);
     form.addEventListener("submit",handleSubmit)
-
 }
+
 function loadName (){
     const currnetUser = localStorage.getItem(USER_LS);
     
